@@ -1,0 +1,19 @@
+You can add
+
+let g:ale_open_list = 1
+
+See https://github.com/w0rp/ale#5ix-how-can-i-use-the-quickfix-list-instead-of-the-loclist for more details
+level 2
+auralucario2
+1 point ·
+2 years ago
+
+Unfortunately, this makes the location list pop up as soon as an error appears while 
+I'm typing, which is rather distracting. Is there some way to have it show up only 
+when I save, or something like that?
+
+That's called a location list. See :h location-list. I never used ALE, but I bet it has 
+either location list or quickfix list support.
+
+To add, ALE pops up the location list if you save with errors, like Syntastic does by default. 
+You could just open the location list while you type, but I'm not sure 
