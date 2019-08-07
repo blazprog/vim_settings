@@ -1,0 +1,20 @@
+The fold command can wrap lines.
+
+fold – wrap each input line to fit in specified width
+
+For your purpose,
+
+fold -w 80 -s in.txt > out.txt
+
+fold has more options, you may check
+
+-b, –bytes
+count bytes rather than columns
+
+
+-s, –spaces
+break at spaces
+
+-w, –width=WIDTH
+use WIDTH columns instead of 80
+Answered by Eric Z Ma.
