@@ -35,6 +35,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-notes'
 Plugin 'junegunn/goyo.vim'
 Plugin 'reedes/vim-pencil'
+Plugin '907th/vim-auto-save'
 call vundle#end()            " required
 filetype plugin indent on    " required
 """" END Vundle Configuration 
@@ -140,7 +141,10 @@ au BufNewFile,BufRead *.*
     \ set fileformat=unix |
 
 
-
+let g:vimwiki_list = [
+                        \{'path': '~/vimwiki'},
+                        \{'path': '~/mdwiki'}
+                \]
 set langmap=АA,БB,ЦC,ДD,ЕE,ФF,ГG,ХH,ИI,ЙJ,КK,ЛL,МM,НN,ОO,ПP,ЯQ,РR,СS,ТT,УU,ЖV,ВW,ЬX,ЫY,ЗZ,аa,бb,цc,дd,еe,фf,гg,хh,иi,йj,кk,лl,мm,нn,оo,пp,яq,рr,сs,тt,уu,жv,вw,ьx,ыy,зz,Ч: 
 
 function! HelloVim()
