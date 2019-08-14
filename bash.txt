@@ -4,7 +4,7 @@ V datoteko /home/blaz/bin lahko sedaj dodajam
 svoje datoteke in skripte, ki bodo dosegljive od povsod.
 
 Z aliasom lahko definiram svoje ukaze
-    alial cppvim="vim -u ~/.vimrcc"  # zazenem vim s svojim vimrc
+    alias cppvim="vim -u ~/.vimrcc"  # zazenem vim s svojim vimrc
 
 Kako reloadam bash?
 source ~/.bashrc
